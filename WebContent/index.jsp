@@ -1,7 +1,7 @@
 <%@taglib uri="http://struts.apache.org/tags-html" prefix="html" %>
 <h1>REG FORM VALIDATION FORM</h1>
 
-<html:form action="reg" >
+<html:form action="reg" onsubmit="return validateRF(this)">
 <html:javascript formName="RF"/>
 <pre>
 
